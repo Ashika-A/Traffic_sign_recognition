@@ -8,6 +8,8 @@ i.e., to develop a deep learning model that reads traffic signs and classifies t
 for the testing dataset and 4410 images are used in the validation dataset where each images is a
 photo of a traffic sign belonging to one of the 43 classes i.e., traffic sign types.
 
+platform: VS code
+
 
 ## Dataset:
 Train Data: https://drive.google.com/open?id=1ZrJJvIbZ5vUHjyzUGNXGl4sRS7zlU5Db
@@ -78,5 +80,8 @@ This has all the dependencies required to deploy our application on Heroku
 - You need the Streamlit App folder to run this application.
 - In your Command line/Terminal go to the directory where you have upload.py file then type 
 #### streamlit run app.py
-
+open cv
+by  downloading of IP webcam app on mobile
+set the ip address in code section of op.py to the ip adress displayed on IP webcam app 
+through live video streaming (by showing the test images through mobile) the prediction will be visible on the screen
 
